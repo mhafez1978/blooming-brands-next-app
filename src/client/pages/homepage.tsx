@@ -10,7 +10,7 @@ import Portfolio from "@/components/ui/Portfolio";
 import CTA from "@/components/ui/CTA01";
 import HeaderCta from "@/components/ui/HeaderCta";
 
-const nunito = Nunito({ subsets: ["latin"] });
+// const nunito = Nunito({ subsets: ["latin"] });
 
 const homepage: React.FC = async () => {
   return (
