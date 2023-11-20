@@ -1,0 +1,203 @@
+/* Add this to your styles.css or within a <style> tag in the head of your HTML */
+.neon-text {
+  color: rgb(252, 250, 252);
+}
+
+/* Optional: Add a keyframe animation for a pulsing effect */
+@keyframes white-pulse {
+  0% {
+    color: rgb(15, 116, 159);
+  }
+  100% {
+    color: rgb(252, 250, 252);
+  }
+}
+
+.neon-text-pulse {
+  animation: white-pulse 0.1s;
+  animation-delay: 0.5s;
+}
+/* Add this to your styles.css or within a <style> tag in the head of your HTML */
+
+/* Optional: Add a keyframe animation for a pulsing effect */
+@keyframes white-pulse2 {
+  0% {
+    color: rgb(15, 116, 159);
+  }
+  100% {
+    color: rgb(252, 250, 252);
+  }
+}
+
+.neon-text-pulse2 {
+  animation: white-pulse2 0.1s;
+  animation-delay: 1s;
+}
+
+@keyframes white-pulse3 {
+  0% {
+    color: rgb(15, 116, 159);
+  }
+  100% {
+    color: rgb(252, 250, 252);
+  }
+}
+
+.neon-text-pulse3 {
+  animation: white-pulse3 0.1s;
+  animation-delay: 1.5s;
+}
+
+@keyframes white-pulse4 {
+  0% {
+    color: rgb(15, 116, 159);
+  }
+  100% {
+    color: rgb(252, 250, 252);
+  }
+}
+
+.neon-text-pulse4 {
+  animation: white-pulse4 0.1s;
+  animation-delay: 2s;
+}
+
+@keyframes white-pulse5 {
+  0% {
+    color: rgb(15, 116, 159);
+  }
+  100% {
+    color: rgb(252, 250, 252);
+  }
+}
+
+.neon-text-pulse5 {
+  animation: white-pulse5 0.1s;
+  animation-delay: 2.5s;
+}
+
+@keyframes white-pulse6 {
+  0% {
+    color: rgb(15, 116, 159);
+  }
+  100% {
+    color: rgb(252, 250, 252);
+  }
+}
+
+.neon-text-pulse6 {
+  animation: white-pulse6 0.1s;
+  animation-delay: 3s;
+}
+
+@keyframes white-pulse7 {
+  0% {
+    color: rgb(15, 116, 159);
+  }
+  100% {
+    color: rgb(252, 250, 252);
+  }
+}
+
+.neon-text-pulse7 {
+  animation: white-pulse7 0.1s;
+  animation-delay: 3.5s;
+}
+
+@keyframes white-pulse8 {
+  0% {
+    color: rgb(15, 116, 159);
+  }
+  100% {
+    color: rgb(252, 250, 252);
+  }
+}
+
+.neon-text-pulse8 {
+  animation: white-pulse8 0.1s;
+  animation-delay: 4s;
+}
+
+@keyframes white-pulse9 {
+  0% {
+    color: rgb(15, 116, 159);
+  }
+  100% {
+    color: rgb(252, 250, 252);
+  }
+}
+
+.neon-text-pulse9 {
+  animation: white-pulse9 0.1s;
+  animation-delay: 4.5s;
+}
+
+@keyframes white-pulse10 {
+  0% {
+    color: rgb(15, 116, 159);
+  }
+  100% {
+    color: rgb(252, 250, 252);
+  }
+}
+
+.neon-text-pulse10 {
+  animation: white-pulse10 0.1s;
+  animation-delay: 5s;
+}
+
+@keyframes white-pulse11 {
+  0% {
+    color: rgb(15, 116, 159);
+  }
+  100% {
+    color: rgb(252, 250, 252);
+  }
+}
+
+.neon-text-pulse11 {
+  animation: white-pulse11 0.1s;
+  animation-delay: 5.5s;
+}
+
+@keyframes white-pulse12 {
+  0% {
+    color: rgb(15, 116, 159);
+  }
+  100% {
+    color: rgb(252, 250, 252);
+  }
+}
+
+.neon-text-pulse12 {
+  animation: white-pulse12 0.1s;
+  animation-delay: 6s;
+}
+
+@keyframes white-pulse13 {
+  0% {
+    color: rgb(15, 116, 159);
+  }
+  100% {
+    color: rgb(252, 250, 252);
+  }
+}
+
+.neon-text-pulse13 {
+  animation: white-pulse13 0.1s;
+  animation-delay: 6.5s;
+}
+
+@keyframes white-pulse14 {
+  0% {
+    color: rgb(15, 116, 159);
+  }
+  100% {
+    color: rgb(252, 250, 252);
+  }
+}
+
+.neon-text-pulse14 {
+  animation: white-pulse14 0.1s;
+  animation-delay: 7s;
+}
