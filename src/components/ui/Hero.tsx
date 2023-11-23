@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import MyModal from "../objects/MyModal";
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <div className="w-[100vw] h-[40vh] border-2 border-emerald-900">
       <div className="container mx-auto border-2 border-black">

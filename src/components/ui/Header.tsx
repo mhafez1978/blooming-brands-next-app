@@ -12,7 +12,7 @@ const menuVariants = {
   closed: { opacity: 0, x: "-100%" },
 };
 
-const Header = () => {
+const Header: React.FC = () => {
   const [menuOpenState, setMenuOpenState] = useState(false);
   const toggleMenu = () => {
     setMenuOpenState(!menuOpenState);
@@ -24,7 +24,7 @@ const Header = () => {
         initial={{ opacity: 0, y: "-100%" }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="fixed w-[100vw] bg-[#AAD4FA]/90 text-black z-50 dark:text-gray-100"
+        className="fixed w-[100vw] bg-[#AAD4FA]/90 text-black z-50 dark:bg-blue-800/80 dark:text-gray-100"
       >
         <div className="w-full px-8 mx-auto">
           <div className="flex justify-between">

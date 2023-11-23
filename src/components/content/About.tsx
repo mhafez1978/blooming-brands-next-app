@@ -16,7 +16,7 @@ const About = () => {
       transition={
         isInView ? { duration: 0.5, delay: 0.3 } : { duration: 0.5, delay: 0.3 }
       }
-      className="bg-slate-200 text-black dark:bg-gray-900 dark:text-slate-100"
+      className="bg-white text-black dark:bg-gray-900 dark:text-slate-100"
     >
       <div className="max-w-6xl mx-auto gap-2 py-32 flex flex-row">
         <div className="w-1/3 rounded-md overflow-hidden pl-32">
@@ -28,12 +28,12 @@ const About = () => {
             }
             transition={
               isInView
-                ? { duration: 0.5, delay: 0.3 }
-                : { duration: 0.5, delay: 0.3 }
+                ? { duration: 1, delay: 0.3 }
+                : { duration: 1, delay: 0.3 }
             }
             src="https://webpedel.dk/wp-content/uploads/2021/03/Group.svg"
             alt=""
-            width={300}
+            width={500}
           />
         </div>
 
@@ -60,7 +60,7 @@ const About = () => {
             </p>
             <button
               onClick={() => router.push("/contact")}
-              className="bg-purple-700 text-white rounded-md w-[10vw] pt-2 pb-2 pl-4 pr-4 mt-2 hover:bg-emerald-600 hover:text-slate-900"
+              className="w-[50%] bg-blue-600 text-white rounded-md py-4 px-8 mt-4 hover:bg-green-600"
             >
               Let&apos;s Talk
             </button>

@@ -27,7 +27,7 @@ const ourProcess = [
   },
 ];
 
-const OurProcess = () => {
+const OurProcess: React.FC = () => {
   const ref = useRef(null);
   // const isInView = useInView(ref, { once: true });
   return (
@@ -40,10 +40,10 @@ const OurProcess = () => {
         className="p-6 dark:bg-gray-800 dark:text-gray-100"
       >
         <div className="pt-24 container mx-auto">
-          <span className="block text-4xl font-black mb-4 text-center uppercase text-violet-600">
+          <span className="block text-4xl font-black mb-4 text-center uppercase text-blue-500">
             What we do ?
           </span>
-          <p className="block w-[80%] mx-auto text-md text-center text-zinc-700 dark:text-gray-50">
+          <p className="block w-[80%] mx-auto text-md text-center text-zinc-700 dark:text-white">
             We build data driven and responsive websites and mobile apps
             essential in today&apos;s digital landscape for building a brand
             credibility, enhancing your customers experience, staying
@@ -56,7 +56,7 @@ const OurProcess = () => {
                 {({ inView, ref }) => (
                   <motion.div
                     ref={ref}
-                    className="flex flex-col p-8 space-y-4 rounded-md bg-violet-600 dark:bg-gray-900"
+                    className="flex flex-col p-8 space-y-4 rounded-md bg-blue-700 dark:bg-gray-900"
                     initial={{ opacity: 0, y: "50vh" }}
                     animate={
                       inView ? { opacity: 1, y: 0 } : { opacity: 0, y: "50vh" }
@@ -66,7 +66,7 @@ const OurProcess = () => {
                       delay: inView ? 0.3 * index : 0,
                     }}
                   >
-                    <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full text-violet-600 bg-white dark:bg-violet-700 dark:text-white">
+                    <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full text-blue-600 bg-white dark:bg-blue-400 dark:text-white">
                       {item.step}
                     </div>
                     <h3 className="text-2xl font-semibold text-white">

@@ -26,6 +26,10 @@
     rgb(var(--background-start-rgb));
 } */
 
+body {
+  overflow-x: hidden;
+}
+
 li {
   list-style-type: none;
 }

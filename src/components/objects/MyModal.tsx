@@ -655,7 +655,7 @@ const MyModal: React.FC = () => {
           onOpen();
           setCurrentStep(1); // Reset step when opening modal
         }}
-        className="w-[200px] rounded-md text-slate-50 bg-violet-500 hover:bg-pink-600 hover:text-white dark:bg-white px-3.5 py-2.5 text-sm font-semibold dark:text-gray-900 dark:shadow-sm dark:hover:bg-purple-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 dark:focus-visible:outline-white"
+        className="w-[50%] rounded-md px-8 py-4 text-sm font-semibold shadow-sm bg-blue-500 text-white hover:bg-green-500"
       >
         Let&apos;s Talk
       </button>

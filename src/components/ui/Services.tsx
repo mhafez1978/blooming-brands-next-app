@@ -1,8 +1,8 @@
 import React from "react";
 
-const Services = () => {
+const Services: React.FC = () => {
   return (
-    <section className="bg-gradient-to-r from-purple-600 to-pink-800 dark:bg-gradient-to-r dark:from-emerald-700 dark:to-purple-600">
+    <section className="bg-gradient-to-r from-sky-400 to-blue-800 dark:bg-gradient-to-r dark:from-blue-400 dark:to-blue-800">
       <div className="max-w-6xl mx-auto px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
           <div className="mx-auto max-w-lg lg:mx-0 ltr:lg:text-left rtl:lg:text-right">
@@ -19,7 +19,7 @@ const Services = () => {
 
             <a
               href="#"
-              className="mt-8 inline-block rounded bg-gray-700 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-600 dark:bg-purple-700  dark:hover:bg-purple-500 focus:outline-none focus:ring focus:ring-yellow-400"
+              className="mt-8 inline-block rounded bg-gray-700 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-600 dark:bg-blue-600  dark:hover:bg-green-500 focus:outline-none focus:ring focus:ring-yellow-400"
             >
               Get Started Today
             </a>
@@ -27,7 +27,7 @@ const Services = () => {
 
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 text-gray-300">
             <a
-              className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-emerald-400 hover:ring-1 hover:ring-emerald-500 hover:text-gray-100 hover:bg-purple-700 focus:outline-none focus:ring"
+              className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-emerald-400 hover:ring-1 hover:ring-emerald-500 hover:text-gray-100 hover:bg-blue-600 focus:outline-none focus:ring"
               href="/accountant"
             >
               <span className="inline-block rounded-lg bg-gray-50 p-3"></span>
@@ -40,7 +40,7 @@ const Services = () => {
             </a>
 
             <a
-              className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-emerald-400 hover:ring-1 hover:ring-emerald-500 hover:text-gray-100 hover:bg-purple-700 focus:outline-none focus:ring"
+              className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-emerald-400 hover:ring-1 hover:ring-emerald-500 hover:text-gray-100 hover:bg-blue-600 focus:outline-none focus:ring"
               href="/accountant"
             >
               <span className="inline-block rounded-lg bg-gray-50 p-3"></span>
@@ -53,7 +53,7 @@ const Services = () => {
             </a>
 
             <a
-              className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-emerald-400 hover:ring-1 hover:ring-emerald-500 hover:text-gray-100 hover:bg-purple-700 focus:outline-none focus:ring"
+              className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-emerald-400 hover:ring-1 hover:ring-emerald-500 hover:text-gray-100 hover:bg-blue-600 focus:outline-none focus:ring"
               href="/accountant"
             >
               <span className="inline-block rounded-lg bg-gray-50 p-3"></span>
@@ -66,7 +66,7 @@ const Services = () => {
             </a>
 
             <a
-              className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-emerald-400 hover:ring-1 hover:ring-emerald-500 hover:text-gray-100 hover:bg-purple-700 focus:outline-none focus:ring"
+              className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-emerald-400 hover:ring-1 hover:ring-emerald-500 hover:text-gray-100 hover:bg-blue-600 focus:outline-none focus:ring"
               href="/accountant"
             >
               <span className="inline-block rounded-lg bg-gray-50 p-3"></span>
@@ -79,7 +79,7 @@ const Services = () => {
             </a>
 
             <a
-              className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-emerald-400 hover:ring-1 hover:ring-emerald-500 hover:text-gray-100 hover:bg-purple-700 focus:outline-none focus:ring"
+              className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-emerald-400 hover:ring-1 hover:ring-emerald-500 hover:text-gray-100 hover:bg-blue-600 focus:outline-none focus:ring"
               href="/accountant"
             >
               <span className="inline-block rounded-lg bg-gray-50 p-3"></span>
@@ -92,7 +92,7 @@ const Services = () => {
             </a>
 
             <a
-              className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-emerald-400 hover:ring-1 hover:ring-emerald-500 hover:text-gray-100 hover:bg-purple-700 focus:outline-none focus:ring"
+              className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-emerald-400 hover:ring-1 hover:ring-emerald-500 hover:text-gray-100 hover:bg-blue-600 focus:outline-none focus:ring"
               href="/accountant"
             >
               <span className="inline-block rounded-lg bg-gray-50 p-3"></span>

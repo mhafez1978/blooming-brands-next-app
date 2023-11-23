@@ -21,6 +21,7 @@ const homepage: React.FC = async () => {
       <Services />
       <About />
       <CTA />
+      <Hero2 />
     </>
   );
 };

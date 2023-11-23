@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import MyModal from "../objects/MyModal";
 
-const ShuffleHero = () => {
+const ShuffleHero: React.FC = () => {
   return (
-    <div className="bg-[#00BFFF] h-[70vh]">
-      <section className="w-full px-8 py-24 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
+    <div className="bg-[#00BFFF] py-24">
+      <section className="w-full px-8  grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
         <div>
           <span className="block mb-4 text-xs md:text-sm text-indigo-500 font-medium">
             Web Design &amp; Development
